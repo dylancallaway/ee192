@@ -1,5 +1,23 @@
 // Place your settings in this file to overwrite default and user settings.
 {
     "C_Cpp.addWorkspaceRootToIncludePath": false,
-    "C_Cpp.intelliSenseEngine": "Tag Parser"
+    "C_Cpp.intelliSenseEngine": "Tag Parser",
+    "files.associations": {
+        "*.tcc": "cpp",
+        "*.tpp": "cpp",
+        "chrono": "cpp",
+        "algorithm": "cpp",
+        "cmath": "cpp",
+        "random": "cpp",
+        "mstd_memory": "cpp",
+        "deque": "cpp",
+        "string": "cpp",
+        "vector": "cpp",
+        "array": "cpp",
+        "initializer_list": "cpp",
+        "mstd_iterator": "cpp",
+        "list": "cpp",
+        "unordered_map": "cpp",
+        "string_view": "cpp"
+    }
 }

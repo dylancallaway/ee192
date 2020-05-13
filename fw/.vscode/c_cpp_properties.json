@@ -8,6 +8,7 @@
             "name": "Windows",
             "compilerPath": "/usr/bin/gcc-arm-none-eabi-8-2019-q3-update/bin/arm-none-eabi-g++",
             "includePath": [
+                "${workspaceFolder}/include/*",
                 "${workspaceFolder}/*",
                 "${workspaceFolder}/mbed-os/*",
                 "${workspaceFolder}/mbed-os/cmsis/*",
@@ -1008,7 +1009,13 @@
                 "TARGET_NAME=NUCLEO_F446RE",
                 "ARM_MATH_CM4"
             ],
-            "cStandard": "c11"
+            "cStandard": "c11",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "${workspaceFolder}/include"
+                ]
+            }
         }
     ],
     "version": 4

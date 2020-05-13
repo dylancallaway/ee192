@@ -1,0 +1,1 @@
+mbed sterm -b 115200

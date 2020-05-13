@@ -1,0 +1,1 @@
+mbed sterm --port /dev/rfcomm0 --baud 9600
